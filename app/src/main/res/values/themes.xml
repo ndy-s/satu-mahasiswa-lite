@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionBarTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:actionBarStyle">@style/Widget.MyApp.ActionBar.Transparent</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Widget.MyApp.ActionBar.Transparent" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/custom_action_bar_background</item>
+    </style>
+</resources>

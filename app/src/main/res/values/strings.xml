@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Satu Mahasiswa</string>
+    <string name="logo_unri">Logo UNRI</string>
+    <string name="background_unri">Background UNRI</string>
+    <string name="error_icon">Error Icon</string>
+    <string name="retry">Retry</string>
+</resources>

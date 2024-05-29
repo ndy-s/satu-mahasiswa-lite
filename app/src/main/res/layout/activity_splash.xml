@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <!-- Background image with scale type -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_unri"
+        android:src="@drawable/bg_unri"
+        android:scaleType="centerCrop" />
+
+    <!-- Semi-transparent box -->
+    <View
+        android:id="@+id/background_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:visibility="visible" />
+
+    <!-- Logo image -->
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/logo_unri"
+        android:src="@drawable/logo_unri_full" />
+</RelativeLayout>
