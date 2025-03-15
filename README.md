@@ -10,3 +10,6 @@ A lightweight Android WebView app for accessing the Satu Mahasiswa UNRI academic
 See the lite app in action:
 
 ![Satu Mahasiswa Lite Demo](https://github.com/user-attachments/assets/5b53ebf7-6b07-4593-83b5-2f1bb82d82e4)
+
+## License
+MIT
